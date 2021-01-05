@@ -1,0 +1,12 @@
+apply plugin:'java'
+apply plugin: 'application'
+
+mainClassName = 'application.MainClass'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.jbotsim:jbotsim-all:1.2.0'
+}
